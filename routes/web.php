@@ -31,3 +31,12 @@ Route::resource('doorprize','DoorprizeController');
 Route::get('voucher-belanja', 'VoucherBelanjaController@index');
 Route::get('voucher-belanja/update/{nomor}', 'VoucherBelanjaController@update');
 Route::get('voucher-belanja/reset', 'VoucherBelanjaController@reset');
+
+
+
+
+
+
+Route::get('sepeda-motor','SepedaMotorController@index');
+Route::post('sepeda-motor/{nomor}','SepedaMotorController@update');
+Route::get('sepeda-motor/reset','SepedaMotorController@reset');

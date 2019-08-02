@@ -29,11 +29,21 @@
         <div class="container">
 
         <div class="page-section-heading text-center text-uppercase text-secondary mb-0">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Logo_BRI.png" alt="BRI" width="200" style="margin-bottom: 80px;">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://logos-download.com/wp-content/uploads/2016/07/Guinness_World_Records_logo.png" alt="GWR" height="100" style="margin-bottom: 80px;">                
+                </div>
+                <div class="col-md-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Logo_BRI.png" alt="BRI" width="200" style="margin-bottom: 80px;">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://wanitaselamindonesia.com/images/pasted-svg-782959x782.svg?crc=4154468454" alt="BRI" height="100" style="margin-bottom: 80px;">
+                </div>
+            </div>
         </div>
         
         <!-- Contact Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" id="header_doorprize">Data Peserta Doorprize</h2>
+        <h3 class="text-center text-uppercase text-secondary mb-0" id="header_doorprize">Pemenang Undian Sepeda Motor</h3>
 
         <!-- Icon Divider -->
         <div class="divider-custom">
@@ -45,7 +55,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="text-center mt-4" style="margin-bottom: 20px;">
                     <button type="submit" class="btn btn-xl" id="undi_button" data-toggle="modal" data-target="#undi_modal" 
                         style="
@@ -54,131 +64,51 @@
                         ">UNDI SEPEDA MOTOR</button>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="text-center mt-4" style="margin-bottom: 20px;">
-                    <button type="submit" class="btn btn-xl" id="undi_button" data-toggle="modal" data-target="#undi_modal" 
-                        style="
-                            background-color: #09539c;
-                            color: white;
-                        ">UNDI SEPEDA</button>
-                </div>
-            </div>
         </div>
 
         <div>
         </div>
         
         <div class="row">
-            <div class="col-md-4">
-                <!-- Contact Section Form -->
-                <table class="table" id="table_doorprize">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col" colspan="2" class="text-center">Daftar Pemenang Undian Sepeda Motor</th>
-                            <!-- <th scope="col">Nama Peserta</th> -->
-                        </tr>
-                    </thead>
-                    <tbody>
-                    @for($i = 0; $i < 10; $i++)
-                    <tr>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                    </tr>
-                    @endfor
-                    </tbody>
-                </table>
+            <div class="col-md-6">
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_01"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_02"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_03"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_04"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_05"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_06"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_07"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_08"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_09"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_10"></h3>
             </div>
-            <div class="col-md-8">
-                <!-- Contact Section Form -->
-                <table class="table" id="table_doorprize">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col" colspan="10" class="text-center">Daftar Pemenang Undian Sepeda</th>
-                            <!-- <th scope="col">Nama Peserta</th> -->
-                        </tr>
-                    </thead>
-                    <tbody>
-                    @for($i = 0; $i < 10; $i++)
-                    <tr>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                        <th scope="row">1020</th>
-                    </tr>
-                    @endfor
-                    </tbody>
-                </table>
+            <div class="col-md-6">
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_11"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_12"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_13"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_14"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_15"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_16"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_17"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_18"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_19"></h3>
+                <h3 class="text-uppercase text-center" style="color: #09539c;" id="undi_number_20"></h3>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="undi_modal" tabindex="-1" role="dialog" aria-labelledby="undi_button" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">
-                        <i class="fas fa-times"></i>
-                    </span>
-                </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title -->
-                                <h3 class="portfolio-modal-title text-secondary text-uppercase mb-0">PEMENANG UNDIAN MOTOR</h3>
-                                <!-- Icon Divider -->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon">
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Text -->
-                                <div id="winner_list">
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_01"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_02"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_03"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_04"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_05"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_06"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_07"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_08"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_09"></h2>
-                                    <h2 class="text-uppercase" style="color: #09539c;" id="undi_number_10"></h2>
-                                </div>
-                                <br>
-                                <button class="btn btn-xl" style="
-                                    background-color: #09539c;
-                                    color: white;
-                                ">
-                                    Kembali
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 <script>
 $(document).ready(function(){
     $('#undi_button').click(function() {
+        var array_doorprize
         $.ajax({
             url: "{{ url('api/doorprize') }}",
             type: 'GET',
+            async: false,
             dataType: 'json', // added data type
             success: function(res) {
-                var array_doorprize = res
-                
+                var array_doorprize = res.splice(0,20)
+
                 // undi nomor 1
                 @for($i = 0; $i < 20; $i++)
                     setTimeout(function () {
@@ -205,7 +135,7 @@ $(document).ready(function(){
                 @for($i = 0; $i < 60; $i++)
                     }, 100)
                 @endfor
-                
+                        
                 // undi nomor 4
                 @for($i = 0; $i < 80; $i++)
                     setTimeout(function () {
@@ -214,7 +144,7 @@ $(document).ready(function(){
                 @for($i = 0; $i < 80; $i++)
                     }, 100)
                 @endfor
-                
+                        
                 // undi nomor 5
                 @for($i = 0; $i < 100; $i++)
                     setTimeout(function () {
@@ -250,7 +180,7 @@ $(document).ready(function(){
                 @for($i = 0; $i < 160; $i++)
                     }, 100)
                 @endfor
-                
+                        
                 // undi nomor 9
                 @for($i = 0; $i < 180; $i++)
                     setTimeout(function () {
@@ -259,7 +189,7 @@ $(document).ready(function(){
                 @for($i = 0; $i < 180; $i++)
                     }, 100)
                 @endfor
-                
+                        
                 // undi nomor 10
                 @for($i = 0; $i < 200; $i++)
                     setTimeout(function () {
@@ -268,7 +198,99 @@ $(document).ready(function(){
                 @for($i = 0; $i < 200; $i++)
                     }, 100)
                 @endfor
-                
+
+
+
+
+                // undi nomor 1
+                @for($i = 0; $i < 20; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_11').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 20; $i++)
+                    }, 100)
+                @endfor
+
+                // undi nomor 2
+                @for($i = 0; $i < 40; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_12').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 40; $i++)
+                    }, 100)
+                @endfor
+
+                // undi nomor 3
+                @for($i = 0; $i < 60; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_13').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 60; $i++)
+                    }, 100)
+                @endfor
+                        
+                // undi nomor 4
+                @for($i = 0; $i < 80; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_14').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 80; $i++)
+                    }, 100)
+                @endfor
+                        
+                // undi nomor 5
+                @for($i = 0; $i < 100; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_15').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 100; $i++)
+                    }, 100)
+                @endfor
+
+                // undi nomor 6
+                @for($i = 0; $i < 120; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_16').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 120; $i++)
+                    }, 100)
+                @endfor
+
+                // undi nomor 7
+                @for($i = 0; $i < 140; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_17').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 140; $i++)
+                    }, 100)
+                @endfor
+
+                // undi nomor 8
+                @for($i = 0; $i < 160; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_18').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 160; $i++)
+                    }, 100)
+                @endfor
+                        
+                // undi nomor 9
+                @for($i = 0; $i < 180; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_19').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 180; $i++)
+                    }, 100)
+                @endfor
+                        
+                // undi nomor 10
+                @for($i = 0; $i < 200; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_20').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
+                @endfor
+                @for($i = 0; $i < 200; $i++)
+                    }, 100)
+                @endfor
             }
         })
     })

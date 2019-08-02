@@ -137,30 +137,7 @@ $(document).ready(function(){
                 console.log(array_doorprize[{{$i}}])
                 @endfor
                 
-                // @for ($i = 0; $i < 50; $i++)
-                //     @for ($j = 0; $j < 10; $j++)
-                        
-                //         @for($i = 0; $i < 20; $i++)
-                //             setTimeout(function () {
-                //                 $('#undi_{{$i.$j}}').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                //         @endfor
-                //         @for($i = 0; $i < 20; $i++)
-                //             }, 100)
-                //         @endfor
-
-                        
-                //         // @for($k = 0; $k < 20; $k++)
-                //         //     setTimeout(function () {
-                //         //         var value = array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name
-                //         //         $('#undi_{{$i.$j}}').text(value)
-                //         // @endfor
-                //         // @for($k = 0; $k < 20; $k++)
-                //         //     }, 100)
-                //         // @endfor
-                        
-                //     @endfor
-                // @endfor
-
+                
             }
         })
         

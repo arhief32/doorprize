@@ -78,7 +78,15 @@ class DoorprizeController extends Controller
      */
     public function update(Request $request, $id)
     {
-        
+        $doorprize_number = $id;
+        $status = 1;
+        $jenis_menang = 'motor';
+
+        Doorprize::where('doorprize_number', $doorprize_number)
+        ->update([
+            'status' => $status,
+            'jenis_menang' => $jenis_menang,
+        ]);
     }
 
     /**
