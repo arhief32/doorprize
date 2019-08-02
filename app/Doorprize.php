@@ -11,6 +11,8 @@ class Doorprize extends Model
     protected $fillable = [
         'doorprize_number',
         'doorprize_name',
+        'status',
+        'jenis_menang',
     ];
     
     public $timestamps = false;

@@ -22,3 +22,12 @@ Route::get('/', function () {
 });
 
 Route::resource('doorprize','DoorprizeController');
+
+
+/**
+ * NEW EDIT
+ */
+// Voucher Belanja
+Route::get('voucher-belanja', 'VoucherBelanjaController@index');
+Route::get('voucher-belanja/update/{nomor}', 'VoucherBelanjaController@update');
+Route::get('voucher-belanja/reset', 'VoucherBelanjaController@reset');

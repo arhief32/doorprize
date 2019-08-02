@@ -14,8 +14,8 @@ class DoorprizeController extends Controller
      */
     public function index()
     {
-        $doorprizes = Doorprize::all();
-
+        $doorprizes = Doorprize::where('status', 0)->get();
+        
         return view('doorprize', [
             'doorprizes' => $doorprizes
         ]);
@@ -23,7 +23,7 @@ class DoorprizeController extends Controller
     
     public function indexAPI()
     {
-        return Doorprize::where('status', 0)->get();
+        return Doorprize::where('status', 0)->inRandomOrder()->get();
     }
 
     /**
