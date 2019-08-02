@@ -40,3 +40,7 @@ Route::get('voucher-belanja/reset', 'VoucherBelanjaController@reset');
 Route::get('sepeda-motor','SepedaMotorController@index');
 Route::post('sepeda-motor','SepedaMotorController@update');
 Route::get('sepeda-motor/reset','SepedaMotorController@reset');
+
+Route::get('smartphone','SmartPhoneController@index');
+Route::post('smartphone','SmartPhoneController@update');
+Route::get('smartphone/reset','SmartPhoneController@reset');

@@ -22,3 +22,4 @@ Route::get('doorprize','DoorprizeController@indexAPI');
 
 // get api non pemenang
 Route::get('sepeda-motor','SepedaMotorController@indexAPI');
+Route::get('smartphone','SmartPhoneController@indexAPI');
