@@ -104,7 +104,7 @@ $(document).ready(function(){
     $('#undi_button').click(function() {
         var array_doorprize
         $.ajax({
-            url: "{{ url('api/doorprize') }}",
+            url: "{{ url('api/sepeda-motor') }}",
             type: 'GET',
             async: false,
             dataType: 'json', // added data type
@@ -302,6 +302,7 @@ $(document).ready(function(){
                 
                 console.log(array_doorprize)
                 
+                $('#undi_number_01').text(array_doorprize[0].doorprize_name)
                 $('#undi_number_02').text(array_doorprize[1].doorprize_name)
                 $('#undi_number_03').text(array_doorprize[2].doorprize_name)
                 $('#undi_number_04').text(array_doorprize[3].doorprize_name)
