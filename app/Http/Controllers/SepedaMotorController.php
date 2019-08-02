@@ -20,13 +20,19 @@ class SepedaMotorController extends Controller
         ]);
     }
 
-    public function update($nomor)
+    public function update(Request $request)
     {
-        Doorprize::where('doorprize_number', $nomor)
-        ->update([
-            'status' => 1,
-            'jenis_menang' => 'sepeda motor',
-        ]);
+        // return $request->all();
+        $list_pemenang = $request['array_doorprize'];
+
+        foreach($list_pemenang as $pemenang)
+        {
+            Doorprize::where('doorprize_number', $pemenang['doorprize_number'])
+            ->update([
+                'status' => 1,
+                'jenis_menang' => 'sepeda motor',
+            ]);
+        }
     }
 
     public function reset()

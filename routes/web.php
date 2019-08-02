@@ -38,5 +38,5 @@ Route::get('voucher-belanja/reset', 'VoucherBelanjaController@reset');
 
 
 Route::get('sepeda-motor','SepedaMotorController@index');
-Route::post('sepeda-motor/{nomor}','SepedaMotorController@update');
+Route::post('sepeda-motor','SepedaMotorController@update');
 Route::get('sepeda-motor/reset','SepedaMotorController@reset');
