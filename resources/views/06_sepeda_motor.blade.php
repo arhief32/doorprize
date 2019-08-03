@@ -117,188 +117,207 @@ $(document).ready(function(){
 
         })
                 // // undi nomor 1
-                // @for($i = 0; $i < 20; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_01').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                        
-                // @endfor
-                // @for($i = 0; $i < 20; $i++)
-                //     }, 100)
-                // @endfor
-                // $('#undi_number_01').text(array_doorprize[0].doorprize_name)
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_01').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_01').text(array_doorprize[0].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 2
-                // @for($i = 0; $i < 40; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_02').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 40; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_02').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_02').text(array_doorprize[1].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 3
-                // @for($i = 0; $i < 60; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_03').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 60; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_03').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_03').text(array_doorprize[2].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
                         
                 // // undi nomor 4
-                // @for($i = 0; $i < 80; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_04').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 80; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_04').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_04').text(array_doorprize[3].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
                         
                 // // undi nomor 5
-                // @for($i = 0; $i < 100; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_05').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 100; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_05').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_05').text(array_doorprize[4].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 6
-                // @for($i = 0; $i < 120; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_06').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 120; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_06').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_06').text(array_doorprize[5].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 7
-                // @for($i = 0; $i < 140; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_07').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 140; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_07').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_07').text(array_doorprize[6].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 8
-                // @for($i = 0; $i < 160; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_08').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 160; $i++)
-                //     }, 100)
-                // @endfor
-                        
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_08').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_08').text(array_doorprize[7].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
+
                 // // undi nomor 9
-                // @for($i = 0; $i < 180; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_09').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 180; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_09').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_09').text(array_doorprize[8].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
                         
                 // // undi nomor 10
-                // @for($i = 0; $i < 200; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_10').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 200; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_10').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_10').text(array_doorprize[9].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
 
 
 
                 // // undi nomor 1
-                // @for($i = 0; $i < 20; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_11').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 20; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_11').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_11').text(array_doorprize[10].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 2
-                // @for($i = 0; $i < 40; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_12').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 40; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_12').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_12').text(array_doorprize[11].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 3
-                // @for($i = 0; $i < 60; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_13').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 60; $i++)
-                //     }, 100)
-                // @endfor
-                        
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_13').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_13').text(array_doorprize[12].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
+        
                 // // undi nomor 4
-                // @for($i = 0; $i < 80; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_14').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 80; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_14').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_14').text(array_doorprize[13].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
                         
                 // // undi nomor 5
-                // @for($i = 0; $i < 100; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_15').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 100; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_15').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_15').text(array_doorprize[14].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 6
-                // @for($i = 0; $i < 120; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_16').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 120; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_16').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_16').text(array_doorprize[15].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 7
-                // @for($i = 0; $i < 140; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_17').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 140; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_17').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_17').text(array_doorprize[16].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
 
                 // // undi nomor 8
-                // @for($i = 0; $i < 160; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_18').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 160; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_18').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_18').text(array_doorprize[17].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
                         
                 // // undi nomor 9
-                // @for($i = 0; $i < 180; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_19').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 180; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_19').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_19').text(array_doorprize[18].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
                         
                 // // undi nomor 10
-                // @for($i = 0; $i < 200; $i++)
-                //     setTimeout(function () {
-                //         $('#undi_number_20').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)
-                // @endfor
-                // @for($i = 0; $i < 200; $i++)
-                //     }, 100)
-                // @endfor
+                @for($i = 0; $i < 50; $i++)
+                    setTimeout(function () {
+                        $('#undi_number_20').text(array_doorprize[Math.floor(Math.random() * array_doorprize.length)].doorprize_name)                       
+                        setTimeout(function () { $('#undi_number_20').text(array_doorprize[19].doorprize_name) }, 100)    
+                @endfor
+                @for($i = 0; $i < 50; $i++)
+                    }, 100)
+                @endfor
                 
                 console.log(array_doorprize)
                 
